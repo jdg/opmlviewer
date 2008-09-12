@@ -1,0 +1,19 @@
+OPMLViewer 1.0b1
+
+This is a test application for an open source (BSD license) OPML class for Cocoa.
+
+More about OPML: http://www.opml.org/
+
+OPML.h and OPML.m are, of course, included.
+
+There's no documentation yet on using this class, but it's pretty simple, and the app shows how to use it.
+
+This class is used as part of NetNewsWire:
+
+http://ranchero.com/software/netnewswire/
+
+To use the test app, launch it, then click the View button. (A default URL will have been filled in for you.) The outline below will display the contents of the OPML file. Any item with a globe icon has a URL attribute—double-click on the item to open the URL in your browser.
+
+-Brent Simmons
+brent@ranchero.com
+http://ranchero.com/cocoa/opml/

@@ -1,0 +1,18 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {openInBrowser = id; viewOPML = id; }; 
+            CLASS = OPMLViewer; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                mainWindow = NSWindow; 
+                outlineView = NSOutlineView; 
+                textView = NSTextView; 
+                urlField = NSTextField; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}
